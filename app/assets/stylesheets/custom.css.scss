@@ -29,3 +29,57 @@
         background-color: darken(#d9534f, 20%) !important;
     }
 }
+
+footer {
+   position:fixed;
+   bottom:0;
+  
+}
+
+.panel-heading {
+    background-color: #81A594;
+}
+
+#home_page {
+  background-color: #6d695c;
+background-image:
+repeating-linear-gradient(120deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+repeating-linear-gradient(60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 60px),
+linear-gradient(60deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)),
+linear-gradient(120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+background-size: 70px 120px;
+}
+
+#stock_img {
+   border-radius: 8px;
+}
+
+#form{
+    background-color: #81A594;
+}
+
+
+.panel panel-default devise-bs{
+   margin:0 auto;
+   width:100%;
+   text-align:left
+}
+
+.opening-text {
+    color: #CCCC9A; 
+}
+
+.navbar-brand {
+    float: left;
+    font-size: 1.7em;
+    color: #771100;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-family: optima;
+}
+
+.welcome-page-text li {
+    color: #CCCC9A;
+    margin: 50px;
+}
